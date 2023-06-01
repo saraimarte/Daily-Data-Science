@@ -15,3 +15,26 @@ newdf = np.insert(dfArray, obj = 1, values = ['Abnormal'], axis = 0)
 
 df = pd.DataFrame(newdf, columns = ['Column'])
 df
+
+
+# Day 680 May 31 2023 Wednesday Week 97 💯
+
+
+import numpy as np
+
+import pandas as pd
+  
+df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
+                   'Type': ['Mammal', 'Mammal', 'Bird'],
+                   'Color': ['Brown', 'Black', 'Yellow']})
+
+df
+
+df.values
+
+dfArray = df.values
+
+dfArray = np.insert(arr = dfArray, obj = 2, values = ['Bear', 'Mammal', 'Black'], axis = 0 )
+
+df = pd.DataFrame(dfArray, columns = ['Animal', 'Type', 'Color'])
+df
