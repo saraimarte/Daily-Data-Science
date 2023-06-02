@@ -38,3 +38,14 @@ dfArray = np.insert(arr = dfArray, obj = 2, values = ['Bear', 'Mammal', 'Black']
 
 df = pd.DataFrame(dfArray, columns = ['Animal', 'Type', 'Color'])
 df
+
+# Day 681 June 1 2023 Thursday Week 97 💯
+
+
+import pandas as pd
+  
+df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
+                   'Type': ['Mammal', 'Mammal', 'Bird'],
+                   'Color': ['Brown', 'Black', 'Yellow']})
+
+df['Animal'].str.lower()
