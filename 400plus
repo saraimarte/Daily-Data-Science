@@ -49,3 +49,16 @@ df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
                    'Color': ['Brown', 'Black', 'Yellow']})
 
 df['Animal'].str.lower()
+
+# Day 682 June 2 2023 Friday Week 97 💯
+
+
+import pandas as pd
+  
+df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
+                   'Type': ['Mammal', 'Mammal', 'Bird'],
+                   'Color': ['Brown', 'Black', 'Yellow']})
+
+df['Colorf'] = df['Color'].str.upper()
+
+df
