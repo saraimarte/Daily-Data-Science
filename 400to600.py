@@ -62,3 +62,14 @@ df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
 df['Colorf'] = df['Color'].str.upper()
 
 df
+
+# Day 683 June 3 2023 Saturday Week 97 💯
+
+
+import pandas as pd
+  
+df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
+                   'Type': ['Mammal', 'Mammal', 'Bird'],
+                   'Color': ['Brown', 'Black', 'Yellow']})
+
+df['Color'].apply(lambda x: x + ' HEX')
