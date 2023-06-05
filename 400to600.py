@@ -73,3 +73,39 @@ df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
                    'Color': ['Brown', 'Black', 'Yellow']})
 
 df['Color'].apply(lambda x: x + ' HEX')
+
+# Day 684 June 4 2023 Sunday Week 97 💯
+
+
+import pandas as pd
+  
+df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
+                   'Type': ['Mammal', 'Mammal', 'Bird'],
+                   'Color': ['Brown', 'Black', 'Yellow']})
+
+df[df['Animal'].str.contains("D")] #case sensitive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
