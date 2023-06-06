@@ -86,7 +86,19 @@ df = pd.DataFrame({'Animal': ['Dog', 'Cat', 'Bird'],
 df[df['Animal'].str.contains("D")] #case sensitive
 
 
+# Day 685 June 5 2023 Monday  💯
 
+
+import pandas as pd
+
+df_new = pd.DataFrame({'Name': ['John', 'Mary', 'Peter'],
+                      'Gender': ['Male', 'Female', 'Male'],
+                      'Age': [25, 35, 42]})
+
+
+df_new['Name'] =df_new['Name'].apply(lambda x: x + " Roberts")
+
+df_new
 
 
 
