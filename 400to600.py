@@ -101,7 +101,47 @@ df_new['Name'] =df_new['Name'].apply(lambda x: x + " Roberts")
 df_new
 
 
+# Day 685 June 5 2023 Monday  💯
 
+
+import pandas as pd
+
+df_new = pd.DataFrame({'Name': ['John', 'Mary', 'Peter'],
+                      'Gender': ['Male', 'Female', 'Male'],
+                      'Age': [25, 35, 42]})
+
+
+df_new['Name'] =df_new['Name'].apply(lambda x: x + " Roberts")
+
+df_new
+
+# Day 686 June 6 2023 Tuesday  💯
+
+
+import pandas as pd
+
+# First dataframe
+df1 = pd.DataFrame({
+    'ID': [1, 2, 3, 4, 5],
+    'Name': ['John', 'Jane', 'Mark', 'Lisa', 'Mike'],
+    'Age': [25, 32, 20, 29, 35]
+})
+
+# Second dataframe
+df2 = pd.DataFrame({
+    'ID': [1, 3, 5, 6, 7],
+    'Salary': [50000, 60000, 70000, 55000, 45000],
+    'Department': ['Sales', 'Marketing', 'Finance', 'IT', 'HR']
+})
+
+
+df1
+
+df2
+
+mergedDf = df1.merge(df2, on = "ID")
+
+mergedDf
 
 
 
