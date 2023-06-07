@@ -143,7 +143,29 @@ mergedDf = df1.merge(df2, on = "ID")
 
 mergedDf
 
+# Day 687 June 7 2023 Wednesday  💯
 
+
+import pandas as pd
+
+# First dataframe
+df1 = pd.DataFrame({
+    'ID': [1, 2, 3, 4, 5],
+    'Name': ['John', 'Jane', 'Mark', 'Lisa', 'Mike'],
+    'Age': [25, 32, 20, 29, 35]
+})
+
+# Second dataframe
+df2 = pd.DataFrame({
+    'ID': [1, 3, 5, 6, 7],
+    'Salary': [50000, 60000, 70000, 55000, 45000],
+    'Department': ['Sales', 'Marketing', 'Finance', 'IT', 'HR']
+})
+
+mergedDf = df1.merge(df2, on = "ID")
+mergedDf 
+
+mergedDf[mergedDf['Name'].str.contains("John")]
 
 
 
