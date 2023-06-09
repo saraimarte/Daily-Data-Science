@@ -167,7 +167,19 @@ mergedDf
 
 mergedDf[mergedDf['Name'].str.contains("John")]
 
+# Day 689 June 8 2023 Thursday  💯
 
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from scipy.stats import norm
+import numpy as np
+
+mean = 50
+std = 2
+x =  np.linspace(mean - 3*std, mean + 3*std, 1000) 
+y =  norm.pdf(x, loc = mean, scale = std)
+plt.plot(x,y)
 
 
 
