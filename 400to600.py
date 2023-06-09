@@ -181,6 +181,35 @@ x =  np.linspace(mean - 3*std, mean + 3*std, 1000)
 y =  norm.pdf(x, loc = mean, scale = std)
 plt.plot(x,y)
 
+# Day 689 June 9 2023 Friday  💯
+
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from scipy.stats import norm
+import numpy as np
+
+fig, graph1 = plt.subplots(figsize = (5,4))
+graph1.set_facecolor("#fefae0")
+
+k = 50
+mean = 50
+std = 2
+x =  np.linspace(mean - 3*std, mean + 3*std, 1000) 
+y =  norm.pdf(x, loc = mean, scale = std)
+graph1.plot(x,y, color = "#ae2012")
+
+x_fill=  np.linspace(mean - 3*std,k, 1000) 
+y_fill= norm.pdf(x_fill, loc = mean, scale = std)
+
+plt.fill_between(x_fill, y_fill, color = "#ee9b00")
+
+graph1.set_title(f'Normal Distribution µ = {mean} σ = {std}' )
+
+p = round(norm.cdf(x = k, loc = mean, scale = std), 4)
+#p = print("{:.0%}".format(p))
+
+plt.text(x = 48, y = 0.075, s = p, fontsize = 15)
 
 
 
