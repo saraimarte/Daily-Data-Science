@@ -255,7 +255,55 @@ graph2.set_facecolor("#f1faee")
 graph2.set_title(f'Normal Distribution µ = {mean} σ = {std}')
 graph2.text(90, 0.015, "50%", color = "white", fontsize = 15)
 
+# Day 691 June 11 2023 Sunday  💯
 
+
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+import numpy as np
+
+fig, (graph1, graph2) = plt.subplots(figsize = (10,4), nrows = 1, ncols = 2)
+
+
+#Graph 1
+
+mean = 0
+std = 1
+
+fig.set_facecolor("#eeeeee")
+
+
+x_values =  np.linspace(mean - 3*std, mean + 3*std, 1000)
+y_values = norm.pdf(x_values)
+graph1.plot(x_values, y_values, color = "black")
+
+x_fill = np.linspace(mean - 3*std, mean, 1000)
+y_fill = norm.pdf(x_fill, loc = mean, scale = std)
+graph1.fill_between(x_fill, y_fill, color = "white")
+graph1.text(-1.1,0.15, "50%", color = "black", fontsize = 15)
+
+graph1.set_facecolor("#eeeeee")
+graph1.set_title(f'Standard Normal Distribution µ = {mean} σ = {std}')
+graph1.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+graph1.set_yticks([])
+
+
+#Graph 2
+mean = 100
+std = 10
+x_values =  np.linspace(mean - 3*std, mean + 3*std, 1000)
+y_values = norm.pdf(x_values, loc = mean, scale = std)
+graph2.plot(x_values, y_values, color = "black")
+
+x_fill = np.linspace(mean - 3*std, mean, 1000)
+y_fill = norm.pdf(x_fill, loc = mean, scale = std)
+graph2.fill_between(x_fill, y_fill, color = "white")
+
+graph2.set_facecolor("#eeeeee")
+graph2.set_title(f'Normal Distribution µ = {mean} σ = {std}')
+graph2.text(90, 0.015, "50%", color = "black", fontsize = 15)
+graph2.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
+graph2.set_yticks([])
 
 
 
