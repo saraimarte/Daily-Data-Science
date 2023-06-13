@@ -358,7 +358,16 @@ graph2.text(95, 0.015, "84%", color = "white", fontsize = 15)
 graph2.spines[['right', 'top', 'left', 'bottom']].set_visible(False)
 graph2.set_yticks([])
 
+# Day 690 June 13 2023 Tuesday  💯
 
+
+import numpy as np
+
+x = np.arange(start = 0, stop = 6.5, step =  1)
+x
+
+x = np.linspace(start = -3, stop = 3, num = 5)
+x
 
 
 
