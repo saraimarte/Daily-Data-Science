@@ -369,6 +369,12 @@ x
 x = np.linspace(start = -3, stop = 3, num = 5)
 x
 
+# Day 691 June 14 2023 Wednesday  💯
+
+
+import numpy as np
+np.add([5, 34, 2], [4, 6, 7])
+
 
 
 
