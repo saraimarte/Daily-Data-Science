@@ -375,7 +375,12 @@ x
 import numpy as np
 np.add([5, 34, 2], [4, 6, 7])
 
+# Day 692 June 15 2023 Thursday  💯
 
+
+import numpy as np
+
+np.subtract([10, 9, 8, 7], [1, 2, 3, 4])
 
 
 
