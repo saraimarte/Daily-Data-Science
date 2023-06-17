@@ -382,7 +382,8 @@ import numpy as np
 
 np.subtract([10, 9, 8, 7], [1, 2, 3, 4])
 
-
-
+# Day 693 June 16 2023 Friday  💯
+import numpy as np
+np.random.randint(low = 1, high = 10, size = 5)
 
 
