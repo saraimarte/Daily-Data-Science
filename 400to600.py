@@ -390,3 +390,10 @@ np.random.randint(low = 1, high = 10, size = 5)
 
 import numpy as np 
 np.random.randint(low = 100, high = 105, size = 2)
+
+# Day 695 June 18 2023 Sunday  💯
+
+import numpy as np
+np.random.randint(low = 10, high =  50 , size = 50)
+
+
