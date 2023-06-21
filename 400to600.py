@@ -403,3 +403,9 @@ import numpy as np
 np.random.seed(0)
 
 np.random.randint(low = -10 , high = 0, size = 3 ) 
+
+# Day 697 June 20 2023 Tuesday  💯
+
+import numpy as np
+np.random.seed(0)
+np.random.randint(low = 100, high = 1000, size = 100)
