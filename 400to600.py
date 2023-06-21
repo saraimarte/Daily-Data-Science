@@ -409,3 +409,11 @@ np.random.randint(low = -10 , high = 0, size = 3 )
 import numpy as np
 np.random.seed(0)
 np.random.randint(low = 100, high = 1000, size = 100)
+
+# Day 698 June 21 2023 Wednesday  💯
+Libraries can contain modules and modules functions
+
+import numpy as np
+choices = [4, 56, 3, 24, 2, 4]
+np.random.seed(100)
+np.random.choice(choices)
