@@ -417,3 +417,10 @@ import numpy as np
 choices = [4, 56, 3, 24, 2, 4]
 np.random.seed(100)
 np.random.choice(choices)
+
+
+
+# Day 699 June 22 2023 Thursday  💯
+import numpy as np
+choices = ['Sarai', 'Gen', 'Lizzy', 'Mom', 'Dad', 'Dog']
+np.random.choice(choices)
