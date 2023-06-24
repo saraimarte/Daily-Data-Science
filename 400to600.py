@@ -424,3 +424,8 @@ np.random.choice(choices)
 import numpy as np
 choices = ['Sarai', 'Gen', 'Lizzy', 'Mom', 'Dad', 'Dog']
 np.random.choice(choices)
+
+# Day 700 June 23 2023 Friday  💯
+
+import numpy as np
+np.random.randint(low = 1000, high = 1500 , size = 6 )
