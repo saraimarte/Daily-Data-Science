@@ -418,8 +418,6 @@ choices = [4, 56, 3, 24, 2, 4]
 np.random.seed(100)
 np.random.choice(choices)
 
-
-
 # Day 699 June 22 2023 Thursday  💯
 import numpy as np
 choices = ['Sarai', 'Gen', 'Lizzy', 'Mom', 'Dad', 'Dog']
@@ -429,3 +427,9 @@ np.random.choice(choices)
 
 import numpy as np
 np.random.randint(low = 1000, high = 1500 , size = 6 )
+
+# Day 702 June 24 2023 Saturday 💯
+
+import numpy as np
+np.random.randint(low = 20, high = 50, size = 3) 
+
