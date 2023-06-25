@@ -433,3 +433,10 @@ np.random.randint(low = 1000, high = 1500 , size = 6 )
 import numpy as np
 np.random.randint(low = 20, high = 50, size = 3) 
 
+# Day 702 June 25 2023 Sunday  💯
+
+
+import numpy as np
+choices = ['Melissa', 'Rojas', 'Maxwell', '5']
+np.random.seed(100)
+np.random.choice(choices)
