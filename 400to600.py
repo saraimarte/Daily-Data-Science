@@ -440,3 +440,16 @@ import numpy as np
 choices = ['Melissa', 'Rojas', 'Maxwell', '5']
 np.random.seed(100)
 np.random.choice(choices)
+
+# Day 703 June 26 2023 Monday  💯
+
+rand = 1 row 2 columns -> generate random data
+
+import numpy as np
+import pandas as pd
+np.random.seed(0)
+data = np.random.rand(4,2)
+data
+
+df = pd.DataFrame(data, columns = ["Column", 'Column B'])
+df
