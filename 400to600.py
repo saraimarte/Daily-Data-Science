@@ -457,3 +457,8 @@ df
 # Day 704 June 27 2023 Tuesday  💯
 import numpy as np
 np.random.randint(low = 2, high = 5, size = 1)
+
+
+# Day 705 June 28 2023 Wednesday 💯
+import numpy as np
+np.random.sample([1, 2])
