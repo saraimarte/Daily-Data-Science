@@ -465,7 +465,12 @@ np.random.sample([1, 2])
 
 
 # Day 706 June 29 2023 Thursday 💯
-
-
 import numpy as np
 np.random.rand(1, 2)
+
+
+# Day 707 June 30 2023 Friday 💯
+import numpy as np
+np.random.rand(5, 1)
+
+np.random.sample([5, 1])
