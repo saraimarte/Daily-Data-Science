@@ -462,3 +462,10 @@ np.random.randint(low = 2, high = 5, size = 1)
 # Day 705 June 28 2023 Wednesday 💯
 import numpy as np
 np.random.sample([1, 2])
+
+
+# Day 706 June 29 2023 Thursday 💯
+
+
+import numpy as np
+np.random.rand(1, 2)
