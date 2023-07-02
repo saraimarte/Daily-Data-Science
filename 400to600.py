@@ -479,3 +479,9 @@ np.random.sample([5, 1])
 
 import numpy as np
 np.random.randint(low = 2, high = 10, size = 4)
+
+
+# Day 709 July 2 2023 Sunday 💯
+
+import numpy as np
+np.random.rand(3, 4)
