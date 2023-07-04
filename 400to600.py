@@ -490,3 +490,11 @@ np.random.rand(3, 4)
 # Day 710 July 3 2023 Monday 💯
 import numpy as np
 np.random.sample([3, 4])
+
+
+# Day 711 July 4 2023 Tuesday 💯
+
+Create a 2D NumPy array of shape (3, 4) containing random numbers between 0 and 1
+
+import numpy as np
+np.random.rand(3,4)
