@@ -498,3 +498,9 @@ Create a 2D NumPy array of shape (3, 4) containing random numbers between 0 and 
 
 import numpy as np
 np.random.rand(3,4)
+
+# Day 712 July 5 2023 Wednesday 💯
+
+ids = ['Chelsea', 'Kylie', 'Felicia', 'Kayla', 'Mike', 'Ariel', 'Kendel']
+
+np.random.choice(ids)
