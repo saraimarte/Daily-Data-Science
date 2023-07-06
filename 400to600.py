@@ -506,3 +506,18 @@ import numpy as np
 ids = ['Chelsea', 'Kylie', 'Felicia', 'Kayla', 'Mike', 'Ariel', 'Kendel']
 
 np.random.choice(ids)
+
+# Day 713 July 6 2023 Thursday 💯
+
+
+Suppose you are a youtuber and are having a giveaway for your merch. You have the emails of the top 4 finalists and you can only choose 2. What you gonna do??
+
+import numpy as np
+
+customer_emails = ['customer1@example.com', 'customer2@example.com', 'customer3@example.com',  'customer1000@example.com']
+
+np.random.choice(customer_emails, size = 2, replace = False)
+
+Replace = False tells numpy that it cant RE-Place the email back into the pool of choices once its chosen
+
+
