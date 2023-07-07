@@ -519,5 +519,9 @@ customer_emails = ['customer1@example.com', 'customer2@example.com', 'customer3@
 np.random.choice(customer_emails, size = 2, replace = False)
 
 Replace = False tells numpy that it cant RE-Place the email back into the pool of choices once its chosen
+# Day 713 July 6 2023 Thursday 💯
 
+
+import numpy as np
+np.random.rand(2,4)
 
