@@ -525,3 +525,10 @@ Replace = False tells numpy that it cant RE-Place the email back into the pool o
 import numpy as np
 np.random.rand(2,4)
 
+
+# Day 714 July 8 2023 Saturday 💯
+
+https://numpy.org/doc/1.16/reference/routines.random.html
+
+import numpy as np
+np.random.sample(size = [2, 3])
