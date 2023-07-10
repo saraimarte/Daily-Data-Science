@@ -532,3 +532,9 @@ https://numpy.org/doc/1.16/reference/routines.random.html
 
 import numpy as np
 np.random.sample(size = [2, 3])
+
+# Day 715 July 9 2023 Sunday 💯
+
+
+import numpy as np
+np.random.rand(2,3)
