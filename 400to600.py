@@ -544,3 +544,9 @@ np.random.rand(2,3)
 import numpy as np
 choices = [4, 35, 3, 24, 3]
 np.random.choice(choices, size = 3, replace = False)
+
+# Day 717 July 11 2023 Tuesday 💯
+
+
+import numpy as np
+np.random.rand(10,10)
