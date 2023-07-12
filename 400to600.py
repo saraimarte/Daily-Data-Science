@@ -550,3 +550,7 @@ np.random.choice(choices, size = 3, replace = False)
 
 import numpy as np
 np.random.rand(10,10)
+
+# Day 718 July 12 2023 Wednesday 💯
+import numpy as np
+np.random.sample([10,10])
