@@ -554,3 +554,8 @@ np.random.rand(10,10)
 # Day 718 July 12 2023 Wednesday 💯
 import numpy as np
 np.random.sample([10,10])
+
+
+# Day 719 July 13 2023 Thursday 💯
+import numpy as np
+np.random.rand(4, 4)
