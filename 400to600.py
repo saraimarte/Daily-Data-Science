@@ -559,3 +559,8 @@ np.random.sample([10,10])
 # Day 719 July 13 2023 Thursday 💯
 import numpy as np
 np.random.rand(4, 4)
+
+
+# Day 720 July 14 2023 Friday 💯
+import numpy as np
+np.random.sample([2,3]);
