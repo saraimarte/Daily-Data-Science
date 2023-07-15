@@ -564,3 +564,10 @@ np.random.rand(4, 4)
 # Day 720 July 14 2023 Friday 💯
 import numpy as np
 np.random.sample([2,3]);
+
+# Day 721 July 15 2023 Friday 💯
+
+choices = ['Personality1', 'Personality 2']
+
+choice = np.random.choice(choices, size = 1, replace = False) 
+choice[0]
