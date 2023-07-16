@@ -571,3 +571,7 @@ choices = ['Personality1', 'Personality 2']
 
 choice = np.random.choice(choices, size = 1, replace = False) 
 choice[0]
+
+# Day 722 July 16 2023 Saturday 💯
+import numpy as np
+np.random.sample([2,2])
