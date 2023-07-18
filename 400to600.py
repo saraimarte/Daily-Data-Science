@@ -579,3 +579,12 @@ np.random.sample([2,2])
 
 import numpy as np
 np.random.rand(1, 5)
+# Day 724 July 18 2023 Monday 💯
+
+import numpy as np
+
+arr = ['a', 'b', 'c', 'd']
+
+np.random.shuffle(arr)
+
+arr
