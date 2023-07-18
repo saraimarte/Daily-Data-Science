@@ -575,3 +575,7 @@ choice[0]
 # Day 722 July 16 2023 Saturday 💯
 import numpy as np
 np.random.sample([2,2])
+# Day 723 July 17 2023 Sunday 💯
+
+import numpy as np
+np.random.rand(1, 5)
