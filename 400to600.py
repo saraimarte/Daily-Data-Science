@@ -588,3 +588,8 @@ arr = ['a', 'b', 'c', 'd']
 np.random.shuffle(arr)
 
 arr
+
+# Day 725 July 19 2023 Tuesday 💯
+
+import numpy as np
+np.linspace(-3, 3, 1000)
