@@ -593,3 +593,8 @@ arr
 
 import numpy as np
 np.linspace(-3, 3, 1000)
+
+# Day 726 July 20 2023 Thursday 💯
+
+import numpy as np
+np.random.rand(1,2)
