@@ -643,3 +643,8 @@ import numpy as np
 np.random.seed(0)
 arr = np.linspace(start = 0, stop = 20, num = 1000)
 np.random.choice(arr, 100 )
+
+# Day 729 July 24 2023 Monday 💯
+
+import numpy as np
+np.random.sample([2,2])
