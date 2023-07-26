@@ -648,3 +648,8 @@ np.random.choice(arr, 100 )
 
 import numpy as np
 np.random.sample([2,2])
+
+# Day 730 July 25 2023 Tuesday 💯
+
+import numpy as np
+np.random.rand(4, 5)
