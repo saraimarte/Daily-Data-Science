@@ -653,3 +653,12 @@ np.random.sample([2,2])
 
 import numpy as np
 np.random.rand(4, 5)
+
+
+# Day 731 July 26 2023 Wednesday 💯
+
+import numpy as np
+start = 1
+stop = 10
+size = 1000
+np.linspace(start = start, stop = stop, num = size)
