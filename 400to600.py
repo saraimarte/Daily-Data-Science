@@ -662,3 +662,9 @@ start = 1
 stop = 10
 size = 1000
 np.linspace(start = start, stop = stop, num = size)
+
+
+# Day 732 July 27 2023 Thursday 💯
+
+from scipy.stats import norm
+norm.cdf(5, 6, 4)
