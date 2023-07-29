@@ -668,3 +668,9 @@ np.linspace(start = start, stop = stop, num = size)
 
 from scipy.stats import norm
 norm.cdf(5, 6, 4)
+
+# Day 733 July 28 2023 Friday 💯
+from scipy.stats import norm
+import numpy as np
+x_values = np.linspace(4, 7, 10)
+norm.pdf(x_values, loc = 0, scale = 1)
