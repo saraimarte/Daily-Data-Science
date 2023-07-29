@@ -674,3 +674,15 @@ from scipy.stats import norm
 import numpy as np
 x_values = np.linspace(4, 7, 10)
 norm.pdf(x_values, loc = 0, scale = 1)
+
+# Day 734 July 29 2023 Saturday 💯
+
+import numpy as np
+from scipy.stats import norm
+
+x_values = np.linspace(start = 0, stop = 10, num = 1000)
+y_values = norm.pdf(x_values, loc = 5, scale = 3)
+
+x_values
+
+y_values
