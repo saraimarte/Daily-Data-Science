@@ -686,3 +686,13 @@ y_values = norm.pdf(x_values, loc = 5, scale = 3)
 x_values
 
 y_values
+# Day 734 July 29 2023 Saturday 💯
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+x_values = np.linspace(start = 0, stop = 10, num = 1000)
+y_values = norm.pdf(x_values, loc = 5, scale = 3)
+
+plt.plot(x_values, y_values)
