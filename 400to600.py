@@ -687,7 +687,7 @@ x_values
 
 y_values
 
-#omg i think i missed the 30th i dont even remember 
+#omg i think i missed the 30th i dont even remember - oh no actually i remember exiting out without saving lol.
 # Day 735 July 31 2023 Sunday 💯
 
 import numpy as np
