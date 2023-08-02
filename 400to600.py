@@ -697,3 +697,7 @@ np.linspace(-3, 3, 1000)
 import numpy as np
 np.arange(5)
 
+# Day 737 August 2 2023 Wednesday 💯
+
+import numpy as np
+np.linspace(20, 50, 100)
