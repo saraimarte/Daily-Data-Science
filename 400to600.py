@@ -701,3 +701,7 @@ np.arange(5)
 
 import numpy as np
 np.linspace(20, 50, 100)
+# Day 738 August 3 2023 Thursday 💯
+
+import numpy as np
+np.random.sample([4, 5])
