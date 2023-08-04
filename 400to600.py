@@ -705,3 +705,7 @@ np.linspace(20, 50, 100)
 
 import numpy as np
 np.random.sample([4, 5])
+# Day 739 August 4 2023 Friday 💯
+
+import numpy as np
+np.random.rand(4,5)
