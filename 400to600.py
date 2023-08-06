@@ -716,3 +716,8 @@ np.random.rand(4,5)
 import numpy as np
 np.random.rand(1, 3) 
 
+# Day 741 August 6 2023 Sunday 💯
+
+import numpy as np
+choices  = ['Sally', 'Su', 'Suzan']
+np.random.choice(choices, size = 4)
