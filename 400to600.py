@@ -726,3 +726,7 @@ np.random.choice(choices, size = 4)
 
 import numpy as np
 np.random.sample([4, 5])
+# Day 743 August 8 2023 Tuesday 💯
+
+import numpy as np
+np.random.rand(3, 4)
