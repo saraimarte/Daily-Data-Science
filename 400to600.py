@@ -753,3 +753,8 @@ np.linspace(-3, 3, 1000)
 
 import numpy as np
 np.rand(1,2)
+
+# Day 750 August 15 2023 Tuesday 💯
+
+import numpy as np
+np.random.sample([3,2])
