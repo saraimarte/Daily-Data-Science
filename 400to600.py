@@ -749,3 +749,7 @@ np.random.rand(5,4)
 
 import numpy as np
 np.linspace(-3, 3, 1000)
+# Day 749 August 14 2023 Monday 💯
+
+import numpy as np
+np.rand(1,2)
