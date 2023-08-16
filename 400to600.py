@@ -758,3 +758,8 @@ np.rand(1,2)
 
 import numpy as np
 np.random.sample([3,2])
+
+# Day 751 August 16 2023 Wednesday 💯
+
+import numpy as np
+np.random.rand(1,2)
