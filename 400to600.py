@@ -784,3 +784,9 @@ np.linspace(start = -3, stop = 3, num = 1000)
 
 import numpy as np
 np.random.sample([3,4])
+
+
+# Day 756 August 21 2023 Monday 💯
+
+import numpy as np
+np.random.rand(1,2)
