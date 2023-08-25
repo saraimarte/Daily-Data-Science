@@ -803,3 +803,9 @@ np.random.sample([4,5])
 import numpy as np
 np.random.rand(4,5)
 
+
+# Day 759 August 24 2023 Thursday 💯
+
+import numpy as np
+np.random.sample([4,5])
+
