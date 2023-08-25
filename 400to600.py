@@ -809,3 +809,10 @@ np.random.rand(4,5)
 import numpy as np
 np.random.sample([4,5])
 
+
+
+# Day 760 August 25 2023 Friday 💯
+
+import numpy as np
+np.random.rand(67, 35)
+
