@@ -841,3 +841,9 @@ np.random.rand(4,5)
 
 import numpy as np
 np.random.sample([4,2])
+
+
+# Day 766 August 31 2023 Thursday 💯
+
+import numpy as np
+np.random.rand(1,5)
