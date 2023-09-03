@@ -853,3 +853,10 @@ np.random.rand(1,5)
 
 import numpy as np
 np.random.sample([4,3])
+
+
+# Day 768 September 2 2023 Saturday 💯
+
+import numpy as np
+np.random.rand(3,4)
+
