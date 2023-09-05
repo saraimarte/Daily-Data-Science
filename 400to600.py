@@ -869,3 +869,9 @@ np.random.sample([1,2])
 import pandas as pd
 
 df = pd.DataFrame({'ColumnA':['data1', 'data2']})
+
+
+
+# Day 771 September 5 2023 Tuesday
+import numpy as np
+np.randomm.sample([3,4])
