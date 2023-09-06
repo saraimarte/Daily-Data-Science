@@ -870,8 +870,10 @@ import pandas as pd
 
 df = pd.DataFrame({'ColumnA':['data1', 'data2']})
 
-
-
 # Day 771 September 5 2023 Tuesday
 import numpy as np
 np.randomm.sample([3,4])
+
+# Day 772 September 6 2023 Wednesday
+import pandas as pd
+ df = pd.DataFrame('ColumnName':{'Data1', 'Data2'})
