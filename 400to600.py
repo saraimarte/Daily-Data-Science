@@ -881,3 +881,7 @@ import pandas as pd
 # Day 773 September 7 2023 Thursday
 import numpy as np
 np.random.rand(3,5)
+
+# Day 774 September 8 2023 Friday
+import numpy as np
+np.random.sample([4,4])
