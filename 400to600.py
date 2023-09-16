@@ -916,3 +916,7 @@ import numpy as np
 np.random.rand(5,6)
 
 
+# Day 782 September 16 2023 Saturday
+import numpy as np
+np.random.sample([4,2])
+
