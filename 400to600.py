@@ -911,3 +911,8 @@ np.random.rand(1,5)
 import numpy as np
 np.random.sample([4,5])
 
+# Day 781 September 15 2023 Friday
+import numpy as np
+np.random.rand(5,6)
+
+
