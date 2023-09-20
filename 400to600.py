@@ -930,3 +930,28 @@ np.random.rand(4,6)
 import numpy as np
 np.random.sample([4,3])
 
+# Day 785 September 19 2023 Tuesday
+
+fig, ax = plt.subplots(1,1)
+plt.figure(figsize = (20,15))
+
+
+fig.set_facecolor('none')
+ax.set_facecolor('none')
+ax.hist(df['Fairly Symmetrical'], color = "#01B99F", edgecolor = 'black')
+ax.set_xlabel('Ages')
+ax.set_ylabel("Frequency")
+ax.spines[['right', 'top']].set_visible(False)
+
+#September 19th 2023
+
+mean = df['Fairly Symmetrical'].mean()
+std = df['Fairly Symmetrical'].std()
+
+x_values = np.linspace(mean + 3*std, mean - 3*std,  num = 1000)
+y_values = norm.pdf(x_values, mean, std)
+ax.plot(x_values, y_values)
+
+
+fig.set_facecolor('none')
+ax.set_facecolor('none')
