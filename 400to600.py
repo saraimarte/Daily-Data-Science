@@ -955,3 +955,19 @@ ax.plot(x_values, y_values)
 
 fig.set_facecolor('none')
 ax.set_facecolor('none')
+
+# Day 785 September 19 2023 Tuesday
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+fig,ax = plt.subplots(1,1)
+plt.figure(figsize = (20,15))
+
+df = pd.DataFrame({'Values':[7, 8, 10, 11, 11, 13, 14, 17, 53]})
+fig.set_facecolor('none')
+ax.set_facecolor('none')
+ax.hist(df['Values'], color = "#01B99F", edgecolor = 'black')
+ax.set_xlabel('Ages')
+ax.set_ylabel("Frequency")
+ax.spines[['right', 'top']].set_visible(False)
