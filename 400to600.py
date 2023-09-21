@@ -956,7 +956,7 @@ ax.plot(x_values, y_values)
 fig.set_facecolor('none')
 ax.set_facecolor('none')
 
-# Day 785 September 19 2023 Tuesday
+# Day 785 September 20 2023 Wednesday
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -971,3 +971,71 @@ ax.hist(df['Values'], color = "#01B99F", edgecolor = 'black')
 ax.set_xlabel('Ages')
 ax.set_ylabel("Frequency")
 ax.spines[['right', 'top']].set_visible(False)
+
+
+#Day 786 September 21 2023 Thursday
+
+sample = np.random.uniform(mean, std, 1000)
+fig,ax = plt.subplots(1,1)
+plt.figure(figsize = (20,15))
+fig.set_facecolor('none')
+ax.set_facecolor('none')
+ax.hist(sample, color = "#01B99F", edgecolor = 'black')
+ax.set_xlabel('Ages')
+ax.set_ylabel("Frequency")
+ax.spines[['right', 'top']].set_visible(False)
+
+# example of a bimodal data sample
+from matplotlib import pyplot
+from numpy.random import normal
+from numpy import hstack
+# generate a sample
+sample1 = normal(loc=20, scale=5, size=300)
+sample2 = normal(loc=40, scale=5, size=700)
+sample = hstack((sample1, sample2))
+# plot the histogram
+pyplot.xlabel('Ages')
+pyplot.ylabel("Frequency")
+pyplot.hist(sample, bins=50, color = "#01B99F")
+
+Making a Dot Plot
+
+https://stackoverflow.com/questions/49703938/how-to-create-a-dot-plot-in-matplotlib-not-a-scatter-plot
+
+import matplotlib.pyplot as plt
+import numpy as np
+import arviz as az
+
+data = np.array([7,8,10,11,11,13,14,17])
+
+ax = az.plot_dot(data, dotcolor = "#01B99F", dotsize = 0.8)
+
+ax.set_title("Ages of People in The Room")
+ax.spines[['right', 'top', 'left']].set_visible(False)
+
+Making a Stem and Leaf Plot
+
+!pip install stemgraphic==0.9.1 -qqq
+
+data = np.array([7,8,10,11,11,13,14,17])
+
+
+http://stemgraphic.org/doc/modules.html#module-stemgraphic.graphic
+
+import stemgraphic
+
+#create stem-and-leaf plot
+fig, ax = stemgraphic.stem_graphic(data, aggregation = False, bar_color = "none", bar_outline = "none", delimiter_color= "#01B99F", median_color = "none", underline_color = "none", trim_blank  = True)
+
+
+
+
+
+
+
+
+
+
+
+
+
