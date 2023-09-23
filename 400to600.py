@@ -1028,6 +1028,26 @@ import stemgraphic
 fig, ax = stemgraphic.stem_graphic(data, aggregation = False, bar_color = "none", bar_outline = "none", delimiter_color= "#01B99F", median_color = "none", underline_color = "none", trim_blank  = True)
 
 
+#Day 787 September 22 2023 Friday
+import matplotlib.pyplot as plt
+import numpy as np
+import arviz as az
+import pandas as pd
+
+df = pd.DataFrame({'Outlier Data': [5, 7, 8, 10, 11, 11, 13, 14, 17]})
+
+fig,ax = plt.subplots(1,1)
+plt.figure(figsize = (20,15))
+
+fig.set_facecolor('none')
+ax.set_facecolor('none')
+ax.set_xlabel('Ages')
+ax.set_ylabel("Frequency")
+ax.spines[['right', 'top']].set_visible(False)
+ax.hist(df['Outlier Data'], color = "#01B99F")
+
+ax.set_title("Ages of People in The Room")
+ax.spines[['right', 'top', 'left']].set_visible(False)
 
 
 
