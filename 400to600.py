@@ -1048,7 +1048,9 @@ ax.hist(df['Outlier Data'], color = "#01B99F")
 
 ax.set_title("Ages of People in The Room")
 ax.spines[['right', 'top', 'left']].set_visible(False)
-
+#Day 788 September 23 2023 Saturday
+import numpy as np
+np.random.rand(4,5)
 
 
 
