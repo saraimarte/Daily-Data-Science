@@ -1028,7 +1028,7 @@ import stemgraphic
 fig, ax = stemgraphic.stem_graphic(data, aggregation = False, bar_color = "none", bar_outline = "none", delimiter_color= "#01B99F", median_color = "none", underline_color = "none", trim_blank  = True)
 
 
-#Day 787 September 22 2023 Friday
+# Day 787 September 22 2023 Friday
 import matplotlib.pyplot as plt
 import numpy as np
 import arviz as az
@@ -1052,6 +1052,10 @@ ax.spines[['right', 'top', 'left']].set_visible(False)
 import numpy as np
 np.random.rand(4,5)
 
+# Day 789 September 24 2023 Sunday
+
+import numpy as np 
+np.random.sample([5,4])
 
 
 
