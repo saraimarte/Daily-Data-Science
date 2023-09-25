@@ -1059,6 +1059,12 @@ np.random.sample([5,4])
 
 
 
+# Day 790 September 25 2023 Monday
+
+import numpy as np 
+np.random.rand(2,4)
+
+
 
 
 
