@@ -1064,7 +1064,9 @@ np.random.sample([5,4])
 import numpy as np 
 np.random.rand(2,4)
 
-
+# Day 791 September 26 2023 Tuesday
+import numpy as np 
+np.random.sample([6,7])
 
 
 
