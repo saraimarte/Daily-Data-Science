@@ -1068,6 +1068,19 @@ np.random.rand(2,4)
 import numpy as np 
 np.random.sample([6,7])
 
+# Day 792 September 27 2023 Wednesday
+import seaborn as sns
+import matplotlib.pyplot as plt
+# set a grey background (use sns.set_theme() if seaborn version 0.11.0 or above)
+df = pd.DataFrame({'Ages':[7, 8, 10, 11, 11, 13, 14, 17]})
+fig, ax = plt.subplots(figsize=(5, 3))
+
+sns.set(style="darkgrid")
+sns.boxplot(x = df.Ages, color = "#01B99F", flierprops={"marker": "o"}, medianprops={"color": "white"}, ax = ax)
+
+plt.show()
+
+
 
 
 
