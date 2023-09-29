@@ -1085,4 +1085,7 @@ plt.show()
 
 
 
+# Day 793 September 28 2023 Thursday
+import numpy as np
+np.rand(1,5)
 
