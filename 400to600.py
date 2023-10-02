@@ -1096,4 +1096,4 @@ np.sample([5.4])
 
 # Day 795 October 01 2023 Sunday
 import numpy as np
-np.sample([5.4])
+np.random.sample([4,5])
