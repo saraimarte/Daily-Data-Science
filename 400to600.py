@@ -1135,6 +1135,10 @@ np.random.rand(6,7)
 import numpy as np
 np.random.sample([5,3])
 
-# Day 803 October 09 2023 Tuesday
+# Day 803 October 10 2023 Tuesday
 import numpy as np
 np.random.rand(3,4)
+
+# Day 804 October 11 2023 Wednesday
+import numpy as np
+np.random.sample([5,2])
