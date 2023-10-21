@@ -1160,18 +1160,24 @@ import numpy as np
 np.random.rand(3,4)
 
 
-# Day 808 October 15 2023 Monday
+# Day 808 October 16 2023 Monday
 import numpy as np
 np.random.sample([3,5])
 
-# Day 809 October 16 2023 Tuesday
+# Day 809 October 17 2023 Tuesday
 import numpy as np
 np.random.rand(4,3)
 
-# Day 810 October 17 2023 Wednesday
+# Day 810 October 18 2023 Wednesday
 import numpy as np
 np.random.sample([5,6])
 
-# Day 811 October 18 2023 Thursday
+# Day 811 October 19 2023 Thursday
 import numpy as np
 np.random.sample([5,3])
+
+# Day 812 October 20 2023 Friday
+import numpy as np
+np.random.sample([10,40])
+
+
