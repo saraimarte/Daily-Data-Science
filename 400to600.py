@@ -1202,3 +1202,8 @@ np.random.sample(5,9)
 import numpy as np
 np.random.sample(8,5)
 
+# Day 818 October 26 2023 Thursday
+import pandas as pd
+
+df = pd.DataFrame({'Column': [6,4,2]})
+
