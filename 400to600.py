@@ -1207,10 +1207,10 @@ import pandas as pd
 
 df = pd.DataFrame({'Column': [6,4,2]})
 
-# Day 819 October 26 2023 Thursday
+# Day 819 October 26 2023 Friday
 import numpy as np
 np.random.sample([4,3])
 
-# Day 820 October 27 2023 Friday
+# Day 820 October 27 2023 Saturday
 import numpy as np
 np.random.sample([5,7])
