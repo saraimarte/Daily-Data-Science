@@ -1244,3 +1244,6 @@ np.random.rand(3,2)
 import numpy as np
 np.random.sample([3,4])
 
+# Day 838 November 05 2023 Sunday
+import numpy as np
+np.random.rand(5,3)
