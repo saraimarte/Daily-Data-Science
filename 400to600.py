@@ -1328,3 +1328,8 @@ np.random.sample(7,4)
 # Day 856 November 23rd 2023 Thursday
 import numpy as np
 np.random.rand(4,9)
+
+# Day 857 November 24th 2023 Friday
+import numpy as np
+np.random.sample([7,4])
+
