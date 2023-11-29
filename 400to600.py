@@ -1325,6 +1325,11 @@ import numpy as np
 np.random.sample(7,4)
 
 
+# Day 861 November 28th 2023 Tuesday
+import numpy as np
+np.random.sample([6,6])
+
+
 # Day 856 November 23rd 2023 Thursday
 import numpy as np
 np.random.rand(4,9)
