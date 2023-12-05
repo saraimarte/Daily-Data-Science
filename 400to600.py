@@ -1367,8 +1367,12 @@ np.random.sample([12,35])
 import numpy as np
 np.random.sample([5,10])
 
-# Day 865 December 3rd 2023 Sun
+# Day 866 December 3rd 2023 Sun
 import numpy as np
-np.random.sa(1,3)
+np.random.sample([1,3])
 
+
+# Day 867 December 4th 2023 Mon
+import numpy as np
+np.random.rand(11,3)
 
