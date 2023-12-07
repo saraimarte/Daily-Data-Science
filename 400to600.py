@@ -1381,3 +1381,6 @@ np.random.rand(11,3)
 import numpy as np
 np.random.sample(1,2)
 
+# Day 869 December 6th 2023 Wed
+import numpy as np
+np.random.rand(10,10)
