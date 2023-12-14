@@ -1405,6 +1405,10 @@ np.random.rand(12,28)
 import numpy as np
 np.random.rand(2,3)
 
-# Day 874 December 12th 2023 Tue
+# Day 875 December 12th 2023 Tue
 import numpy as np
 np.random.sample([3,2])
+
+# Day 876 December 13th 2023 Wed
+import numpy as np
+np.random.sample([5,2])
