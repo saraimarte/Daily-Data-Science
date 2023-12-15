@@ -1417,3 +1417,11 @@ np.random.sample([5,2])
 # Day 877 December 14th 2023 Thur
 import numpy as np
 np.random.sample([1,2])
+
+
+
+
+# Day 878 December 15th 2023 Fri
+import numpy as np
+np.random.sample([3,3])
+
