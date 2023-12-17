@@ -1425,3 +1425,7 @@ np.random.sample([1,2])
 import numpy as np
 np.random.sample([3,3])
 
+# Day 879 December 16th 2023 Sat
+import pandas as pd
+nums = [3,5,5]
+pd.Series(nums).mean()
