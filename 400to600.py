@@ -1429,3 +1429,68 @@ np.random.sample([3,3])
 import pandas as pd
 nums = [3,5,5]
 pd.Series(nums).mean()
+
+
+# Day 880 December 17th 2023 Sun
+
+import pandas as pd
+from itertools import combinations
+
+population = [1,3,2]
+from itertools import product
+
+population = [4,7,15]
+comb = product(population, repeat=3)  # generate combinations with repetition of length 3
+for triplet in list(comb):
+    print(triplet)
+import pandas as pd
+from itertools import product
+from fractions import Fraction
+
+population = [4, 7, 15]
+comb = product(population, repeat=3)  # generate combinations with repetition of length 3
+
+# Create an empty DataFrame to store the combinations
+df = pd.DataFrame(columns=['Combination'])
+
+# Iterate through the combinations and calculate the means
+for triplet in comb:
+    mean = Fraction(sum(triplet), len(triplet))
+    df = pd.concat([df, pd.DataFrame({'Combination': [triplet], 'Mean': [mean]})], ignore_index=True)
+
+# Print the DataFrame
+print(df)
+
+import pandas as pd
+from fractions import Fraction
+
+# Assuming you already have a DataFrame named 'df' with 'Mean' column
+mean_counts = df['Mean'].value_counts().reset_index()
+mean_counts.columns = ['Mean', 'Count']
+
+# Assuming you already have a DataFrame named 'mean_counts' with 'Mean' and 'Count' columns
+mean_counts['p(x)'] = Fraction(1, 3)**3
+
+# Convert 'Count' column to fractions
+mean_counts['Count'] = mean_counts['Count'].apply(lambda x: Fraction(x))
+
+# Calculate 'p(x) * Count' as fractions
+mean_counts['p(x) * Count'] = mean_counts['p(x)'] * mean_counts['Count']
+
+# Sort the DataFrame by 'Mean' column in ascending order
+mean_counts = mean_counts.sort_values(by='Mean')
+
+# Print the updated DataFrame
+print(mean_counts)
+
+import pandas as pd
+from fractions import Fraction
+
+# Assuming you already have a DataFrame named 'mean_counts' with 'Mean', 'Count', and 'p(x) * Count' columns
+results = mean_counts[['Mean', 'p(x) * Count']].copy()
+
+# Convert 'p(x) * Count' column to fractions
+results['p(x) * Count'] = results['p(x) * Count'].apply(lambda x: Fraction(x))
+
+# Print the 'results' DataFrame
+results
