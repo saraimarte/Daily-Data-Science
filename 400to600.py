@@ -1494,3 +1494,7 @@ results['p(x) * Count'] = results['p(x) * Count'].apply(lambda x: Fraction(x))
 
 # Print the 'results' DataFrame
 results
+
+# Day 881 December 18th 2023 Mon
+
+print("I need finals to be over")
