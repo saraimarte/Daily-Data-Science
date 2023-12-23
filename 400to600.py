@@ -1503,3 +1503,11 @@ print("I also need sleep")
 
 # Day 883 December 20th 2023 Wed
 print("3 down 2 to go")
+
+# Day 884 December 21st 2023 Thur
+print("4 down 1 to go")
+
+# Day 885 December 22nd 2023 Fri
+print("5 down 0 to go")
+
+
