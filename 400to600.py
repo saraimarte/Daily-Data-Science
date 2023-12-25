@@ -1513,3 +1513,6 @@ print("5 down 0 to go")
 # Day 886 December 23rd 2023 Sat
 print("At this point, actually no- the past 4 months - actually no this whole notebook is pathetic. I need to get back to it.")
 
+# Day 887 December 24th 2023 Sun
+import pandas as pd
+df = pd.DataFrame({'COLA':[1,313,333]})
