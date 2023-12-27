@@ -1521,3 +1521,8 @@ df = pd.DataFrame({'COLA':[1,313,333]})
 df = pd.DataFrame({'Class':['Calc 135', 'Calc 152', 'Intro to Comp Sci', 'Data Structures']})
 
 
+# Day 889 December 26th 2023 Tue
+import numpy as np
+np.add([3,5,2],[1,3,2])
+
+
