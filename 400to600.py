@@ -1526,3 +1526,6 @@ import numpy as np
 np.add([3,5,2],[1,3,2])
 
 
+# Day 890 December 27th 2023 Wed
+import numpy as np
+np.random.sample([3,2])
