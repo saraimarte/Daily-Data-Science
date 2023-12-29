@@ -1525,7 +1525,11 @@ df = pd.DataFrame({'Class':['Calc 135', 'Calc 152', 'Intro to Comp Sci', 'Data S
 import numpy as np
 np.add([3,5,2],[1,3,2])
 
-
 # Day 890 December 27th 2023 Wed
 import numpy as np
 np.random.sample([3,2])
+
+# Day 891 December 28th 2023 Thur
+import numpy as np
+np.random.rand(2,4)
+
