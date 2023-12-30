@@ -1533,3 +1533,7 @@ np.random.sample([3,2])
 import numpy as np
 np.random.rand(2,4)
 
+
+# Day 892 December 29th 2023 Fri
+import numpy as np
+np.random.sample([4,2])
