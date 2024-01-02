@@ -1541,8 +1541,12 @@ np.random.sample([4,2])
 import numpy as np
 np.random.rand(2,4)
 
-
 # Day 894 December 31st 2023 Sun
 import numpy as np
-np.random.sample(5,2)
+np.random.sample([5,2])
 print("also happy new year, k bye")
+
+# Day 895 January 1st 2024 Mon
+import numpy as np
+np.random.rand(1,1)
+
