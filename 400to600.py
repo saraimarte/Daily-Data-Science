@@ -1550,3 +1550,7 @@ print("also happy new year, k bye")
 import numpy as np
 np.random.rand(1,1)
 
+# Day 896 January 2nd 2024 Tue
+import numpy as np
+np.random.sample([5,6])
+
