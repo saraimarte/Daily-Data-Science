@@ -1568,3 +1568,8 @@ np.random.rand(2,5)
 import numpy as np
 np.random.rand(1,7)
 
+# Day 900 January 7th 2024 Sat
+import numpy as np
+np.random.sample([5,5])
+
+
