@@ -1576,3 +1576,7 @@ np.random.sample([5,5])
 import numpy as np
 np.random.sample([3,3])
 
+# Day 902 January 8th 2024 Mon
+import numpy as np
+np.random.rand([2,3])
+
