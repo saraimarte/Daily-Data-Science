@@ -1621,3 +1621,10 @@ np.random.sample([2,4])
 # Day 912 Janurary 18th 2024 Thur
 import numpy as np
 np.random.rand(1,4)
+
+
+
+# Day 913 Janurary 19th 2024 Fri
+import numpy as np
+np.random.sample([3,3])
+
