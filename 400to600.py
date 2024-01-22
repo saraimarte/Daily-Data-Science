@@ -1634,3 +1634,7 @@ import numpy as np
 np.random.rand((5,7))
 
 
+
+# Day 915 Janurary 21st 2024 Sun
+import numpy as np
+np.random.sample(5,3)
