@@ -1643,3 +1643,7 @@ np.random.sample(5,3)
 # Day 916 Janurary 22nd 2024 Mon
 import numpy as np
 np.random.rand(3,4)
+
+# Day 917 January 23rd 2024
+import pandas as pd
+df = pd.DataFrame({'Col1'['data1',  'data2']})
