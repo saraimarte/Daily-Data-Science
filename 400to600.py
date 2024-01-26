@@ -1651,3 +1651,7 @@ df = pd.DataFrame({'Col1'['data1',  'data2']})
 # Day 918  January 24th 2024
 import numpy as np
 np.random.rand(3,4)
+
+# Day 919  January 25th 2024
+import numpy as np
+np.random.sample([3,4])
