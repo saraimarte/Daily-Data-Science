@@ -1663,3 +1663,7 @@ np.random.sample([2,1])
 # Day 921  January 27th 2024
 import numpy as np
 np.random.rand(3,4)
+
+# Day 923  January 28th 2024
+import numpy as np
+np.random.sample([3,2])
