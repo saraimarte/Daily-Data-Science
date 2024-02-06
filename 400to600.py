@@ -1695,3 +1695,8 @@ import numpy as np
 np.random.rand(2,3)
 
 
+# Day 926  February 5th 2024
+import numpy as np
+np.random.sample([3,6])
+
+
