@@ -1700,3 +1700,7 @@ import numpy as np
 np.random.sample([3,6])
 
 
+# Day 927  February 6th 2024
+import numpy as np
+np.random.rand(3,4)
+
