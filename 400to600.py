@@ -1734,3 +1734,7 @@ np.random.rand(2,2)
 
 # Day 935 February 14th 2024
 print("i bubble u")
+
+# Day 936 February 15th 2024
+import numpy as np
+np.random.sample([3,3])
