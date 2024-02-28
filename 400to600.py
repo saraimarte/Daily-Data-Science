@@ -1785,3 +1785,12 @@ np.random.rand(4,5)
 # Day 946 February 26th  2024
 import numpy as np
 np.random.sample([5,7])
+
+
+# Day 947 February 27th 2024
+import pandas as pd 
+df = pd.DataFrame({'column' : [1,2,3] })
+
+# Day 948 February 28th 2024 
+import pandas as pd 
+df = pd.DataFrame({'names': ['sarai', 'wendy', 'noir', 'ladybug']})
