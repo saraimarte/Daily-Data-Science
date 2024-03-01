@@ -1797,3 +1797,7 @@ df = pd.DataFrame({'names': ['sarai', 'wendy', 'noir', 'ladybug']})
 # Day 947 February 27th 2024
 import numpy as np
 np.random.rand(4,7);
+
+# Day 948 February 28th 2024
+import numpy as np
+np.random.sample(3,6);
