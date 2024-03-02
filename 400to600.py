@@ -1800,9 +1800,16 @@ np.random.rand(4,7);
 
 # Day 948 February 28th 2024
 import numpy as np
-np.random.sample(3,6);
+np.random.sample([3,6]);
 
 # Day 949 February 29th 2024
 import numpy as np
-np.random.rand([4,2]);
+np.random.sample([4,2]);
 
+# Day 950 March 1st 2024
+import numpy as np
+np.random.rand(5,7);
+
+# Day 951 March 2nd 2024
+import numpy as np
+np.random.sample([3,7]);
