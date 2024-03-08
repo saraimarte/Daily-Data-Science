@@ -1829,3 +1829,7 @@ np.random.rand(4,2);
 # Day 955 March 6th 2024
 import numpy as np
 np.random.rand(4,6);
+
+# Day 956 March 7th 2024
+import numpy as np
+np.random.sample([4,7]);
