@@ -1902,3 +1902,6 @@ np.random.rand(3,5)
 import numpy as np
 np.random.rand(2,6)
 
+# Day 974 March 24 2024
+import numpy as np
+np.random.rand(12,4)
